@@ -1,0 +1,171 @@
+/* Woocommerce */
+@import url('https://cdn.jsdelivr.net/npm/woocommerce/assets/css/woocommerce.css');
+
+.woocommerce div.product {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.woocommerce div.product .summary {
+    float: right;
+    width: 50%;
+}
+
+.woocommerce div.product .images {
+    float: left;
+    width: 45%;
+    border-radius: 100%;
+}
+
+.woocommerce div.product .woocommerce-tabs {
+    clear: both;
+} 
+
+.woocommerce-product-gallery__image img   {
+    border-radius: 5%;
+    padding: 10px;
+    padding-right: 20px;
+    gap: 10px;
+}
+.product_title {
+    font-size: 45px;
+    font-family: 'Jost';
+
+}
+
+.woocommerce-product-gallery__image:nth-child(3) img {
+    margin-left: 10px;
+    margin-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+/* Style css single-product.php */
+/* .custom-single-product {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.product-content {
+    display: flex;
+    gap: 40px;
+}
+
+.product-gallery {
+    width: 50%;
+}
+
+.product-details {
+    width: 50%;
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 22px;
+    color: #FF6F00;
+    margin-top: 10px;
+}
+
+.product-rating {
+    margin-top: 10px;
+}
+
+.product-variations {
+    margin-top: 20px;
+}
+
+.product-quantity {
+    margin-top: 15px;
+}
+
+.cart-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.cart-buttons .single_add_to_cart_button {
+    background-color: #A65F3E;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.cart-buttons .buy-now {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+} */
+
+
+
+.custom-single-product {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.product-wrapper {
+    display: flex;
+    gap: 40px;
+}
+.product-gallery {
+    width: 50%;
+}
+.product-info {
+    width: 50%;
+    padding: 20px;
+}
+.product-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+.product-price {
+    font-size: 24px;
+    color: #FF6F00;
+    margin-top: 10px;
+}
+.product-rating {
+    margin-top: 10px;
+}
+.product-variations h4,
+.product-size h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.product-actions {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.add-to-cart, .buy-now {
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.add-to-cart {
+    background-color: #A65F3E;
+    color: white;
+    border: none;
+}
+.buy-now {
+    background-color: black;
+    color: white;
+    border: none;
+}
+.product-tabs {
+    margin-top: 40px;
+}
+
+
+
